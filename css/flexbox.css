@@ -8,10 +8,6 @@
 	display: flex;
 }
 
-.conteudoPrincipal .container {
-	display: flex;
-}
-
 .rodapePrincipal-patrocinadores .container {
 	display: flex;
 	justify-content: space-between;	
@@ -31,4 +27,24 @@
 
 .rodapePrincipal-contatoForm-fieldset {
 	display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+/*	flex-direction: column;
+	flex-wrap: wrap;*/
+	flex-flow: column wrap;
+	height: 250px;
+}
+
+.conteudoPrincipal-cursos {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.conteudoPrincipal-cursos-link {
+	width: 23%;
 }
